@@ -4,11 +4,25 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
+import { AntecedentesComponent } from './antecedentes/antecedentes.component';
+import { AyudarComponent } from './ayudar/ayudar.component';
+import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
+import { QueHacemosComponent } from './que-hacemos/que-hacemos.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { DonarComponent } from './donar/donar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    AntecedentesComponent,
+    AyudarComponent,
+    QuienesSomosComponent,
+    QueHacemosComponent,
+    InicioComponent,
+    DonarComponent
   ],
   imports: [
     BrowserModule,
