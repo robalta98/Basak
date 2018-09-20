@@ -1,5 +1,5 @@
 @import "assets/icomoon/style.css";
-
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 /* @charset 'utf-8'; */
 /*
 Theme Name: Basak
@@ -1320,7 +1320,7 @@ fieldset legend {
 /* Columns width */
 .column-1, .column-1_1, .column-2_2, .column-3_3, .column-4_4, .column-5_5, .column-6_6, .column-7_7, .column-8_8, .column-9_9, .column-10_10, .column-11_11, .column-12_12	{ width:100%; }
 .column-1_2, .column-2_4, .column-3_6, .column-4_8, .column-5_10, .column-6_12	{ width:50%; }
-.column-1_3, .column-2_6, .column-3_9, .column-4_12								{ width:33.33333333%; }
+.column-1_3, .column-2_6, .column-3_9, .column-4_12								{ width:32.9999999%; }
 .column-2_3, .column-4_6, .column-8_12											{ width:66.66666667%; }
 .column-1_4, .column-2_8, .column-3_12											{ width:25%; }
 .column-3_4, .column-6_8, .column-9_12											{ width:75%; }

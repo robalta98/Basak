@@ -1,3 +1,25 @@
+.vc_custom_1473435558335 {
+ background-color: #f6f5f2 !important;
+}
+.vc_custom_1507766718331 {
+ background-image: url(assets/slider2.jpg?id=859) !important;
+ background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+}
+
+.top_panel_title .page_title {
+
+    float: left;
+    margin: 0;
+    font-weight: 900 !important;
+    font-size: 3.500em !important;
+    padding: 0.3em 0 0.15em;
+    line-height: 1.2em;
+    text-transform: uppercase !important;
+
+}
+
 /* ATTENTION! This file was generated automatically! Don't change it!!!*/
 body {
  font-family:"Lato",sans-serif;
