@@ -7,8 +7,13 @@ import { QuienesSomosComponent} from './quienes-somos/quienes-somos.component';
 import { QueHacemosComponent } from './que-hacemos/que-hacemos.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { DonarComponent } from './donar/donar.component';
+import { AgradecimientosComponent } from './agradecimientos/agradecimientos.component';
 
 const routes: Routes = [
+  {
+    path: 'agradecimientos',
+    component: AgradecimientosComponent
+  },
   {
     path: 'antecedentes',
     component: AntecedentesComponent

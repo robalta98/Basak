@@ -1,0 +1,98 @@
+
+/*
+Theme Name: Basak Child
+Theme URI: http://basak.org
+Description: Basak
+Author: Alpha Pixel
+Author URI: http://alphapixel.mx
+Template: charity-is-hope
+Version: 1.0
+Tags: one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,flexible-header,buddypress,custom-background,custom-colors,custom-header,custom-menu,editor-style,featured-image-header,featured-images,front-page-post-form,full-width-template,microformats,post-formats,sticky-post,theme-options,threaded-comments,translation-ready,holiday
+*/
+
+
+/* @import url("styles.css"); */
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.scheme_light .contact_button>a.first_button {
+    background-color: #74b1c6 !important;
+    color: #ffffff;
+    border: 3px solid #74b1c6;
+    border-radius: 0px;
+}
+.scheme_light .sc_call_to_action_accented .sc_item_button>a, .scheme_light .contact_button>a.second_button, .scheme_light .sc_button.sc_button_style_filled2, .scheme_light .post_item_excerpt.post_type_donation .more-link, .scheme_light .post_item .post_readmore {
+    background-color: transparent !important;
+    color: #bddd91 !important;
+    border: 3px solid #bddd91;
+    border-radius: 0px;
+}
+.scheme_light input[type="submit"], .scheme_light input[type="reset"], .scheme_light input[type="button"], .scheme_light button, .scheme_light .sc_button.sc_button_style_filled {
+    background-color: #74b1c6 !important;
+    color: #ffffff;
+}
+.scheme_light .sc_item_descr {
+    color: #232a34;
+    word-spacing: 0;
+}
+.scheme_light .sc_services_style_services-1 .sc_services_item .sc_services_item_title, .scheme_light .sc_services_style_services-1 .sc_services_item .sc_services_item_title a {
+    color: #333333 !important;
+}
+.scheme_light .sc_skills_counter .sc_skills_item.sc_skills_style_1 .sc_skills_count {
+    color: #bddd91 !important;
+    font-weight: 900;
+}
+.scheme_light .post_info_donations .middle>span {
+    background-color: #bddd91 !important;
+}
+footer .column-1_2 {
+	width:100%;
+}
+.contacts_wrap_inner {
+    padding: 0 0 2em;
+    text-align: center !important;
+	padding:0 !important;
+}
+.contacts_wrap .logo {
+    text-align: center !important;
+    margin-bottom: 0.9em;
+    margin-left: 0.2em;
+}
+.contacts_wrap .contacts_address {
+    overflow: hidden;
+    font-size: 0.875em;
+    margin-bottom: 0 !important;
+    line-height: 1.75em;
+    padding-right: 3.5em;
+}
+.copyright_wrap_inner {
+    padding: 2.5em 0 !important;
+    overflow: hidden;
+}
+.footer_wrap_inner {
+    padding: 6em 0 3em !important;
+}
+.scheme_dark .sc_testimonials_style_testimonials-4 .sc_testimonial_item {
+    background-color: #ffffff !important;
+    border: 5px solid #bddd91 !important;
+    border-radius: 0px !important;
+}
+.scheme_dark .sc_testimonials_style_testimonials-4 .sc_testimonial_content p:first-child:before, .scheme_dark .sc_testimonials_style_testimonials-4 .sc_testimonial_author_position {
+    color: #bddd91 !important;
+}
+.scheme_dark .sc_testimonial_author_name {
+    color: #333333 !important;
+}
+.top_panel_title .page_title {
+    float: left;
+    margin: 0;
+    font-weight: 900 !important;
+    font-size: 3.500em !important;
+    padding: 0.3em 0 0.15em;
+    line-height: 1.2em;
+    text-transform: uppercase !important;
+}
+h2.wpb_gallery_heading {
+	font-size:15px;
+}
