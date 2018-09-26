@@ -10,54 +10,24 @@ Version: 1.0
 Tags: one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,flexible-header,buddypress,custom-background,custom-colors,custom-header,custom-menu,editor-style,featured-image-header,featured-images,front-page-post-form,full-width-template,microformats,post-formats,sticky-post,theme-options,threaded-comments,translation-ready,holiday
 */
 
-@import "assets/icomoon/style.css"; 
+
 @import url("styles.css");
 
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-.contact_button>button{
-  border-radius: 5px;
-  font-size: 0.875em;
-  padding:0.77em 1.79em;
-}
-
-.contact_button>button.first_button {
+.scheme_light .contact_button>a.first_button {
     background-color: #74b1c6 !important;
     color: #ffffff;
     border: 3px solid #74b1c6;
-
+    border-radius: 0px;
 }
-
-.contact_button>button.first_button:hover {
-    background-color: #232a34 !important;
-    color: #74b1c6;
-    border: 3px solid #74b1c6;
-}
-
-.scheme_light .sc_call_to_action_accented .sc_item_button>a, .scheme_light .sc_button.sc_button_style_filled2, .scheme_light .post_item_excerpt.post_type_donation .more-link, .scheme_light .post_item .post_readmore {
+.scheme_light .sc_call_to_action_accented .sc_item_button>a, .scheme_light .contact_button>a.second_button, .scheme_light .sc_button.sc_button_style_filled2, .scheme_light .post_item_excerpt.post_type_donation .more-link, .scheme_light .post_item .post_readmore {
     background-color: transparent !important;
     color: #bddd91 !important;
     border: 3px solid #bddd91;
     border-radius: 0px;
 }
-
- .contact_button>button.second_button{
-   background-color: transparent !important;
-   color: #28a745 !important;
-   border: 3px solid #28a745;
- }
-
-  .contact_button>button.second_button:hover {
-    background-color: #28a745 !important;
-    color: #ffffff !important;
-  }
-
-  /* --------- Barra de redes sociales -------------- */
-.scheme_light .top_panel_over .header_mobile, .scheme_light .top_style_header_7 .header_mobile, .scheme_light .top_style_header_1 .header_mobile, .scheme_light .top_panel_style_1 .top_panel_middle, .top_panel_middle {
-    background-color: #232a34;
-}
-
 .scheme_light input[type="submit"], .scheme_light input[type="reset"], .scheme_light input[type="button"], .scheme_light button, .scheme_light .sc_button.sc_button_style_filled {
     background-color: #74b1c6 !important;
     color: #ffffff;
