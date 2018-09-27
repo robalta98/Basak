@@ -9,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
               '../../assets/responsive.css',
               '../../assets/default.css',
               '../../assets/css/settings.css',
-              '../../assets/fonts/css/fontello.css']
+              '../../assets/fonts/css/fontello.css',
+              '../../assets/core.animation.css']
 })
 export class InicioComponent implements OnInit {
 

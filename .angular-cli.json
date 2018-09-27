@@ -20,7 +20,7 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-
+        "style.css",
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "../node_modules/js_composer/assets/css/js_composer.min.css",
         "../node_modules/js_composer/assets/lib/bower/flexslider/flexslider.min.css"
@@ -31,7 +31,8 @@
         "../node_modules/js_composer/assets/js/dist/vc_grid.min.js",
         "../node_modules/jquery/dist/jquery.slim.min.js",
         "../node_modules/popper.js/dist/umd/popper.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../src/assets/js/jquery/jquery.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
