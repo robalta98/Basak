@@ -8,6 +8,8 @@ import { QueHacemosComponent } from './que-hacemos/que-hacemos.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { DonarComponent } from './donar/donar.component';
 import { AgradecimientosComponent } from './agradecimientos/agradecimientos.component';
+import { NuestrosProgramasComponent } from './nuestros-programas/nuestros-programas.component';
+import {NuestraExperienciaComponent } from './nuestra-experiencia/nuestra-experiencia.component';
 
 const routes: Routes = [
   {
@@ -25,6 +27,14 @@ const routes: Routes = [
   {
     path: 'donar',
     component: DonarComponent
+  },
+  {
+    path: 'nuestros-programas',
+    component: NuestrosProgramasComponent
+  },
+  {
+    path: 'nuestra-experiencia',
+    component: NuestraExperienciaComponent
   },
   {
     path: 'quienes-somos',
