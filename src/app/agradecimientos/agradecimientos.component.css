@@ -1,0 +1,32 @@
+body{
+  background: #ececec;
+  padding: 4em;
+  font-family: 'Lato';
+}
+
+#container{
+  padding:2em;
+}
+
+  #list{
+    padding:1em;
+    display: block;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+
+  button {
+    border: none;
+    margin-top: 20px;
+    padding:10px;
+    background: blueviolet;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .columna {
+    width: 33%;
+    display: inline-block;
+    padding: 40px 0px;
+    color: gray;
+  }

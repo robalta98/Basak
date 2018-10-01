@@ -1,3 +1,24 @@
-<p>
-  agradecimientos works!
-</p>
+<body>
+  <div id="container" [@listAnimation]="items.length">
+    <button (click)="pushItem()">Add Item</button>
+    <button (click)="removeItem()">Remove Item</button>
+
+    <div id="list" *ngFor="let item of items">
+      {{ item }}
+    </div>
+
+  </div>
+
+  <div @explainerAnim>
+    <div class="columna">
+      <p>Some text for a paragraph</p>
+    </div>
+    <div class="columna">
+      <p>Some text for a paragraph</p>
+    </div>
+    <div class="columna">
+      <p>Some text for a paragraph</p>
+    </div>
+  </div>
+
+</body>
