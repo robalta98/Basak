@@ -14,6 +14,7 @@ import { DonarComponent } from './donar/donar.component';
 import { AgradecimientosComponent } from './agradecimientos/agradecimientos.component';
 import { NuestrosProgramasComponent } from './nuestros-programas/nuestros-programas.component';
 import { NuestraExperienciaComponent } from './nuestra-experiencia/nuestra-experiencia.component';
+import { NuestrosAliadosComponent } from './nuestros-aliados/nuestros-aliados.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { NuestraExperienciaComponent } from './nuestra-experiencia/nuestra-exper
     DonarComponent,
     AgradecimientosComponent,
     NuestrosProgramasComponent,
-    NuestraExperienciaComponent
+    NuestraExperienciaComponent,
+    NuestrosAliadosComponent
   ],
   imports: [
     BrowserModule,

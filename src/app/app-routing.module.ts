@@ -9,7 +9,9 @@ import { InicioComponent } from './inicio/inicio.component';
 import { DonarComponent } from './donar/donar.component';
 import { AgradecimientosComponent } from './agradecimientos/agradecimientos.component';
 import { NuestrosProgramasComponent } from './nuestros-programas/nuestros-programas.component';
-import {NuestraExperienciaComponent } from './nuestra-experiencia/nuestra-experiencia.component';
+import { NuestraExperienciaComponent } from './nuestra-experiencia/nuestra-experiencia.component';
+import { NuestraAliadosComponent } from './nuestros-aliados/nuestros-aliados.component';
+
 
 const routes: Routes = [
   {
@@ -35,6 +37,10 @@ const routes: Routes = [
   {
     path: 'nuestra-experiencia',
     component: NuestraExperienciaComponent
+  },
+  {
+    path: 'nuestros-aliados',
+    component: NuestraAliadosComponent
   },
   {
     path: 'quienes-somos',
