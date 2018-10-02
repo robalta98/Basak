@@ -12,6 +12,7 @@ import { QueHacemosComponent } from './que-hacemos/que-hacemos.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { DonarComponent } from './donar/donar.component';
 import { AgradecimientosComponent } from './agradecimientos/agradecimientos.component';
+import { NuestrosAliadosComponent } from './nuestros-aliados/nuestros-aliados.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { AgradecimientosComponent } from './agradecimientos/agradecimientos.comp
     QueHacemosComponent,
     InicioComponent,
     DonarComponent,
-    AgradecimientosComponent
+    AgradecimientosComponent,
+    NuestrosAliadosComponent
   ],
   imports: [
     BrowserModule,
