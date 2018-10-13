@@ -5,3 +5,7 @@
 .navbar-collapse {
   text-align: center;
 }
+
+.nav-link .dropdown-toggle a{
+  cursor: pointer;
+}
