@@ -140,7 +140,8 @@ input[type="submit"],input[type="reset"],input[type="button"],button,.sc_button 
  font-family:"Lato",sans-serif
 }
 .scheme_original .accent1 {
- color:#84c54e
+ -webkit-column-rule: #84c54e;
+ column-rule: #84c54e;
 }
 .scheme_original .accent1_bgc {
  background-color:#84c54e
