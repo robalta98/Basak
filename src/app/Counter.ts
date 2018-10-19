@@ -1,5 +1,5 @@
 export interface Counter {
-  ID: number;
-  nombre: string;
-  valor: number;
+  ID: number,
+  nombre: string,
+  valor: number
 }

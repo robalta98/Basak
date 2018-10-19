@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { HttpClientModule } from '@angular/common/http';
 
+import { MysqlConnectionService } from './mysql-connection.service';
+
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { AntecedentesComponent } from './antecedentes/antecedentes.component';
@@ -40,7 +42,7 @@ import { NuestrosAliadosComponent } from './nuestros-aliados/nuestros-aliados.co
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [MysqlConnectionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

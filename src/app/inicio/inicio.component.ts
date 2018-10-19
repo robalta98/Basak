@@ -20,19 +20,16 @@ import * as $ from 'jquery';
 })
 export class InicioComponent implements OnInit {
 
-  // public counters = [];
+  public counters = [];
+  // public counters: Object;
 
-  contadores: Array<Counter>;
+  // contadores: Array<Counter>;
 
-  constructor() { }
-
-  // constructor( private mysql:MysqlConnectionService ) {
-  //   this.contadores = mysql.getCounter();
-  //  }
+  constructor( private _mysql:MysqlConnectionService ) { }
 
   ngOnInit() {
 
-    // this._mysqlConnectionService.getCounter().subscribe( _mysqlConnectionService => this.contadores$ = _mysqlConnectionService)
+    this._mysql.getCounter().subscribe( data => this.counters = data );
 
     $('.sc_skills_total').each(function () {
       $(this).prop('Counter',0).animate({
