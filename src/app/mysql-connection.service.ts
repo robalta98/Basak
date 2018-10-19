@@ -1,21 +1,22 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { Counter } from './Counter';
+// import { Counter } from './Counter';
 
 import { Observable } from 'rxjs/Observable';
 
 
-@Injectable()
+@Injectable({
+    providedIn: 'root'
+})
+
 export class MysqlConnectionService {
 
-  private _url: string = "";
-
   constructor(private http: HttpClient) { }
+  // constructor() { }
 
-  getCounter(): Observable<Counter[]>{
-    return
-    // this.http.get<Counter>('http:Basak.org.mx/service.php')
+  getCounter(){
+    return this.http.get('https://jsonplaceholder.typicode.com/users')
   }
 
 }

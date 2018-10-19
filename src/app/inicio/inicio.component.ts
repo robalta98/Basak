@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { MysqlConnectionService } from '../mysql-connection.service';
+import { Observable } from 'rxjs';
+
+import { Counter } from '../Counter';
 
 import * as $ from 'jquery';
 
@@ -16,9 +20,19 @@ import * as $ from 'jquery';
 })
 export class InicioComponent implements OnInit {
 
+  // public counters = [];
+
+  contadores: Array<Counter>;
+
   constructor() { }
 
+  // constructor( private mysql:MysqlConnectionService ) {
+  //   this.contadores = mysql.getCounter();
+  //  }
+
   ngOnInit() {
+
+    // this._mysqlConnectionService.getCounter().subscribe( _mysqlConnectionService => this.contadores$ = _mysqlConnectionService)
 
     $('.sc_skills_total').each(function () {
       $(this).prop('Counter',0).animate({
