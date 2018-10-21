@@ -31,6 +31,8 @@ export class InicioComponent implements OnInit {
 
     this._mysql.getCounter().subscribe( data => this.counters = data );
 
+    console.log(this.counters);
+
     $('.sc_skills_total').each(function () {
       $(this).prop('Counter',0).animate({
           Counter: $(this).text()
