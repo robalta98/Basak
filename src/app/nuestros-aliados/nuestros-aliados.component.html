@@ -1,3 +1,11 @@
-<p>
-  nuestros-aliados works!
-</p>
+<div *ngIf="error">{{error}}</div>
+<div *ngIf="success">{{success}}</div>
+
+<h1>Countries</h1>
+  <ul>
+  <!-- <li *ngFor="let language of _languages"> -->
+  <li *ngFor="let counter of counters">
+  <!-- {{language.name}}&nbsp;({{language.code}}) -->
+  {{counter.valor}}
+  </li>
+  </ul>

@@ -1,28 +1,20 @@
-body{
-  background: #ececec;
-  padding: 4em;
-  font-family: 'Lato';
+/* .esgbox-margin {
+ margin-right:0px;
 }
 
-#container{
-  padding:2em;
-}
 
-  #list{
-    padding:1em;
-    display: block;
-    background: #fff;
-    margin-bottom: 10px;
-  }
-
-  button {
-    border: none;
-    margin-top: 20px;
-    padding:10px;
-    background: blueviolet;
-    color: #fff;
-    margin-bottom: 10px;
-  }
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+} */
 
   .columna {
     width: 33%;
@@ -36,4 +28,3 @@ body{
    font-weight:400;
    line-height:1.65em
   }
-  

@@ -1,4 +1,4 @@
-<body class="page-template-default page page-id-23 charity_is_hope_body body_style_wide top_style_header_1 body_filled article_style_stretch layout_single-standard template_single-standard top_panel_show top_panel_above sidebar_hide sidebar_outer_hide wpb-js-composer js-comp-ver-5.0 vc_responsive">
+<body class="page-template-default page page-id-23 charity_is_hope_body body_style_wide top_style_header_1 body_filled article_style_stretch layout_single-standard template_single-standard scheme_light top_panel_show top_panel_above sidebar_hide sidebar_outer_hide wpb-js-composer js-comp-ver-5.0 vc_responsive top_panel_fixed">
   <div class="top_panel_title top_panel_style_1  title_present scheme_light">
     <div class="top_panel_title_inner top_panel_inner_style_1  title_present_inner">
       <div class="content_wrap">
@@ -41,10 +41,13 @@
                 <div class="vc_column_inner">
                   <div class="wpd_wrapper">
                     <h2 class="sc_title sc_title_regular margin_top_tiny-">BASAK</h2>
-                    <h4 class="sc_title sc_title_regular" style="font-weight:400;">
+                    <h4 id="container" [@listAnimation]="items.length" class="sc_title sc_title_regular" style="font-weight:400;">
                       Acrónimo en latín
                       <p></p>
-                      <p>
+                      <p id="list" *ngFor="let item of items">
+                        {{ item }}
+                      </p>
+                      <!-- <p>
                         B: Bene estare (bienestar)
                         <br>
                         A: Auditare (ayuda)
@@ -54,7 +57,7 @@
                         A: Aetas (vida)
                         <br>
                         K: Konstitutum (Compromiso)
-                      </p>
+                      </p> -->
                     </h4>
                     <div class="vc_empty_space">
                       <span class="vc_empty_space_inner"></span>
@@ -82,8 +85,11 @@
                       <div id="sc_services_1126426849" class="sc_services sc_services_style_services-1 sc_services_type_images  margin_top_huge margin_bottom_huge" style="width=100%;">
                         <h2 class="sc_services_title sc_item_title sc_item_title_without_descr">Objetivo</h2>
                         <div class="sc_services_descr sc_item_descr">
-                          Crear una prevención primaria con una comunicación nacional y hasta internacional
+                          Bienestar social<br>
+                          Crear conciecia social: reforzando valores, reconociendo emociones, autovalor, <br>conocimiento de límites, manejo del tiempo libre. <br>
+                          Crear una prevención primaria con una comunicación nacional y hasta internacional.
                         </div>
+                          <h2 class="sc_services_title sc_item_title sc_item_title_without_descr">Objetivo Social</h2>
                         <div class="sc_columns columns_wrap">
                           <div class="column-1_3 column_padding_bottom">
                             <div id="sc_services_1126426849_1" class="sc_services_item sc_services_item_1 odd first">
@@ -122,6 +128,24 @@
                             </div>
                           </div>
                           <div class="column-1_3 column_padding_bottom">
+                            <div id="sc_services_1126426849_2" class="sc_services_item sc_services_item_2 even">
+                              <div class="sc_services_item_featured post_featured">
+                                <div class="post_thumb" data-title="Programas de prevención y tratamiento impartidos por un grupo de especialistas preocupados por la evolución humana">
+                                  <a class="hover_icon hover_icon_link">
+                                    <img class="wp-post-image" src="assets/2009-group.png" alt="2009-group.png" width="256" height="<256></256>">
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="sc_services_item_content">
+                                <h4 class="sc_services_item_title">
+                                  <a>
+                                    Tratamientos impartidos por un grupo de especialistas preocupados por la evolución humana.
+                                  </a>
+                                </h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="column-1_3 column_padding_bottom">
                             <div id="sc_services_1126426849_3" class="sc_services_item sc_services_item_3 odd">
                               <div class="sc_services_item_featured post_featured">
                                 <div class="post_thumb" data-title="Conferencias y talleres para la prevención de adicciones en atención a escuelas y sociedad en general">
@@ -142,12 +166,31 @@
                         </div>
                       </div>
                     </div>
+                      <h2 class="sc_services_title sc_item_title sc_item_title_without_descr">MISIÓN</h2>
+                      <div class="sc_services_descr sc_item_descr">
+                          El bienestar del ser humano<br>
+                          Detectar carencias, alteraciones, vacíos o síntomas anormales que tengan un efecto negativo en las personas.
+                          Prevenir las situaciones detonantes que inducen al deterioro humano.
+                    </div>
+                      <h2 class="sc_services_title sc_item_title sc_item_title_without_descr">VISIÓN</h2>
+                      <div class="sc_services_descr sc_item_descr">
+                          Brindar a las personas herramientas necesarias para mejorar su calidad humana.
+                      </div>
+                      <h2 class="sc_services_title sc_item_title sc_item_title_without_descr">VALORES</h2>
+                      <div class="sc_services_descr sc_item_descr">
+                          falta imagen
+                      </div>
+                      <h2 class="sc_services_title sc_item_title sc_item_title_without_descr">FILOSOFÍA</h2>
+                      <div class="sc_services_descr sc_item_descr">
+                          Generar programas enfocados al bienestar humano, provocando las prevención de diferentes problemas sociales como suicidios, depresión, delincuencia, trastornos mentales y consumo de sustancias adictivas. Siempre obteniendo el mayor impacto con los mejores resultados.
+                      </div>
                     <div class="vc_empty_space" style="height: 1em">
                       <span class="vc_empty_space_inner"></span>
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
             <div class="vc_row wpb_row vc_row-fluid vc_custom_1507766718331 scheme_dark" style="position: relative; left: -125px; box-sizing: border-box; width: 1280px; padding-left: 125px; padding-right: 125px;">
               <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -169,7 +212,8 @@
                         <div class="vc_column-inner">
                           <div class="wpb_wrapper">
                             <h4 class="sc_title sc_title_underline sc_align_center" style="text-align:center;font-weight:600;">
-                              Elsa García
+                              Elsa García<br>
+                              Presidente y Director General
                             </h4>
                           </div>
                         </div>
@@ -178,7 +222,8 @@
                         <div class="vc_column-inner">
                           <div class="wpb_wrapper">
                             <h4 class="sc_title sc_title_underline sc_align_center" style="text-align:center;font-weight:600;">
-                              Brenda Hernández
+                              Yeretzade Garza García<br>
+                              Tesorero
                             </h4>
                           </div>
                         </div>
@@ -187,7 +232,8 @@
                         <div class="vc_column-inner">
                           <div class="wpb_wrapper">
                             <h4 class="sc_title sc_title_underline sc_align_center" style="text-align:center;font-weight:600;">
-                              Fuzz García García
+                              Rubén Dromundo<br>
+                              Secretario
                             </h4>
                           </div>
                         </div>

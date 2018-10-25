@@ -10,7 +10,7 @@ import { DonarComponent } from './donar/donar.component';
 import { AgradecimientosComponent } from './agradecimientos/agradecimientos.component';
 import { NuestrosProgramasComponent } from './nuestros-programas/nuestros-programas.component';
 import { NuestraExperienciaComponent } from './nuestra-experiencia/nuestra-experiencia.component';
-import { NuestraAliadosComponent } from './nuestros-aliados/nuestros-aliados.component';
+import { NuestrosAliadosComponent } from './nuestros-aliados/nuestros-aliados.component';
 
 
 const routes: Routes = [
@@ -40,7 +40,7 @@ const routes: Routes = [
   },
   {
     path: 'nuestros-aliados',
-    component: NuestraAliadosComponent
+    component: NuestrosAliadosComponent
   },
   {
     path: 'quienes-somos',
